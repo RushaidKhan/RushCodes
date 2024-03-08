@@ -1,0 +1,379 @@
+/* 
+#211951
+#836FFF
+#15F5BA 
+#F0F3FF 
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+* {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  background-color: #836fff;
+  margin: 0;
+}
+nav {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  border: 1px solid transparent;
+  justify-content: center;
+}
+nav a {
+  text-align: center;
+  font-size: 2em;
+  padding: 0;
+  margin: 0;
+  color: #f0f3ff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+nav a img {
+  width: 50px;
+}
+.sectionOne {
+  height: 100vh;
+  margin: 0;
+  background-color: #211953;
+}
+.sectionTwo {
+  background-color: #836fff;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+.homeContainer {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding-top: 10px;
+  border: 1px solid transparent;
+  padding: 10px;
+  border-radius: 10px;
+}
+.homeDetails {
+  border: 1px solid transparent;
+}
+.homeDetails h1 {
+  color: #15f5ba;
+  font-size: 3em;
+  padding-top: 100px;
+}
+.homeDetails h1 span {
+  color: #836fff;
+}
+.homeDetails h2 {
+  color: #f0f3ff;
+  font-size: 2em;
+}
+.homeDetails a {
+  border: 1px solid #15f5ba;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 2em;
+  border-radius: 10px;
+  color: #f0f3ff;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
+}
+.homeDetails a:hover {
+  background: #15f5ba;
+  border: 1px solid #f0f3ff;
+}
+.imgContainer {
+  border: 1px solid greenyellow;
+}
+/*stying for section 2*/
+
+.sect2header {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 10px;
+}
+.sect2header h1 {
+  text-align: center;
+  font-size: 2em;
+  text-decoration: underline;
+  color: #f0f3ff;
+}
+.sect2header h2 {
+  font-size: 1.5em;
+  text-align: justify;
+}
+.infoContainer {
+  border: 1px solid transparent;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+.infoContainer h1 {
+  text-align: center;
+  color: #f0f3ff;
+  font-size: 2em;
+}
+.cardContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card img {
+  width: 400px;
+}
+.card p {
+  width: 350px;
+  text-align: center;
+  font-size: 1em;
+}
+
+/*styling for contact-us*/
+
+.sectContact {
+  width: 90%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: 1px solid #211953;
+  background-color: #211953;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.sectContact h1 {
+  color: #15f5ba;
+  text-align: center;
+  font-size: 2em;
+}
+.sectContact h2 {
+  color: #f0f3ff;
+}
+.sectContact h2 span {
+  color: #836fff;
+}
+
+/*mobile responsive*/
+
+@media only screen and (max-width: 600px) {
+  .homeContainer {
+    display: block;
+    max-width: 600px;
+    width: 90%;
+    height: 90%;
+    margin-top: 0;
+  }
+  .homeContainer img {
+    width: 350px;
+  }
+  .homeDetails {
+    border: 1px solid transparent;
+    height: 50%;
+  }
+  .homeDetails h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .homeDetails h2 {
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 50px;
+    border: 1px solid transparent;
+  }
+  .homeDetails a {
+    margin-top: 100px;
+    text-align: center;
+  }
+  .cardContainer {
+    display: block;
+  }
+  .card img {
+    width: 300px;
+  }
+  .card p {
+    width: 300px;
+  }
+  .sect2header h2 {
+    font-size: 1em;
+  }
+}
+
+/* svg styling */
+
+svg#freepik_stories-software-code-testing:not(.animated) .animable {
+  opacity: 0;
+}
+svg#freepik_stories-software-code-testing.animated #freepik--Floor--inject-70 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideUp,
+    1.5s Infinite linear floating;
+  animation-delay: 0s, 1s;
+}
+svg#freepik_stories-software-code-testing.animated
+  #freepik--Shadows--inject-70 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedRight,
+    1.5s Infinite linear floating;
+  animation-delay: 0s, 1s;
+}
+svg#freepik_stories-software-code-testing.animated #freepik--Device--inject-70 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) fadeIn,
+    1.5s Infinite linear floating;
+  animation-delay: 0s, 1s;
+}
+svg#freepik_stories-software-code-testing.animated #freepik--Screen--inject-70 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft,
+    1.5s Infinite linear floating;
+  animation-delay: 0s, 1s;
+}
+svg#freepik_stories-software-code-testing.animated #freepik--Gears--inject-70 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideRight,
+    1.5s Infinite linear floating;
+  animation-delay: 0s, 1s;
+}
+svg#freepik_stories-software-code-testing.animated #freepik--Rocket--inject-70 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideUp,
+    1.5s Infinite linear floating;
+  animation-delay: 0s, 1s;
+}
+svg#freepik_stories-software-code-testing.animated
+  #freepik--magnifier-glass--inject-70 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft,
+    1.5s Infinite linear floating;
+  animation-delay: 0s, 1s;
+}
+svg#freepik_stories-software-code-testing.animated
+  #freepik--speech-bubble-2--inject-70 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideLeft,
+    1.5s Infinite linear floating;
+  animation-delay: 0s, 1s;
+}
+svg#freepik_stories-software-code-testing.animated
+  #freepik--speech-bubble-1--inject-70 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedLeft,
+    1.5s Infinite linear floating;
+  animation-delay: 0s, 1s;
+}
+svg#freepik_stories-software-code-testing.animated
+  #freepik--character-2--inject-70 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) lightSpeedRight,
+    1.5s Infinite linear floating;
+  animation-delay: 0s, 1s;
+}
+svg#freepik_stories-software-code-testing.animated
+  #freepik--character-1--inject-70 {
+  animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) zoomIn,
+    1.5s Infinite linear floating;
+  animation-delay: 0s, 1s;
+}
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: inherit;
+  }
+}
+@keyframes floating {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes lightSpeedRight {
+  from {
+    transform: translate3d(50%, 0, 0) skewX(-20deg);
+    opacity: 0;
+  }
+  60% {
+    transform: skewX(10deg);
+    opacity: 1;
+  }
+  80% {
+    transform: skewX(-2deg);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes lightSpeedLeft {
+  from {
+    transform: translate3d(-50%, 0, 0) skewX(20deg);
+    opacity: 0;
+  }
+  60% {
+    transform: skewX(-10deg);
+    opacity: 1;
+  }
+  80% {
+    transform: skewX(2deg);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slideLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
